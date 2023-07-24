@@ -19,16 +19,55 @@
                 <a href="#"><img src="./img/search.svg" alt="search" class="search"></a>
             </nav>
             <nav class="header-right">
-                <a class="header-menu" href="#"><img src="./img/menu.svg" alt="Main menu"></a>
+
+                <label for="main-menu"><img src="./img/menu.svg" alt="Main menu">
+                    <input type="checkbox" id="main-menu">
+                    <nav class="header__main-menu-content">
+                        <label class="header__main-menu-p" for="main-menu">MENU</label>
+                        <!-- <p class="header__main-menu-p">MENU</p> -->
+                        <ul>
+                            <li class="header__main-menu-category">
+                                <a class="header__main-menu-link-category" href="">MEN</a>
+                                <ul>
+                                    <li class="header__main-menu-item"><a href="">Accessories</a></li>
+                                    <li class="header__main-menu-item"><a href="">Bags</a></li>
+                                    <li class="header__main-menu-item"><a href="">Denim</a></li>
+                                    <li class="header__main-menu-item"><a href="">T-Shirts</a></li>
+                                </ul>
+                            </li>
+                            <li class="header__main-menu-category">
+                                <a class="header__main-menu-link-category" href="">WOMEN</a>
+                                <ul>
+                                    <li class="header__main-menu-item"><a href="">Accessories</a></li>
+                                    <li class="header__main-menu-item"><a href="">Jackets & Coats</a></li>
+                                    <li class="header__main-menu-item"><a href="">Polos</a></li>
+                                    <li class="header__main-menu-item"><a href="">T-Shirts</a></li>
+                                    <li class="header__main-menu-item"><a href="">Shirts</a></li>
+                                </ul>
+                            </li>
+                            <li class="header__main-menu-category">
+                                <a class="header__main-menu-link-category" href="">KIDS</a>
+                                <ul>
+                                    <li class="header__main-menu-item"><a href="">Accessories</a></li>
+                                    <li class="header__main-menu-item"><a href="">Jackets & Coats</a></li>
+                                    <li class="header__main-menu-item"><a href="">Polos</a></li>
+                                    <li class="header__main-menu-item"><a href="">T-Shirts</a></li>
+                                    <li class="header__main-menu-item"><a href="">Shirts</a></li>
+                                    <li class="header__main-menu-item"><a href="">Bags</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </label>
                 <a class="header-profile" href="#"><img src="./img/profile.svg" alt="Profile"></a>
                 <a class="header-cart" href="#"><img src="./img/cart.svg" alt="Your Cart"></a>
-                <!-- <div class="menu-right">
-                    </div> -->
+
             </nav>
         </div>
     </header>
 
     <section class="brand-intro">
+        <h2 style="display: none;">heading?</h2>
         <div class="brand-container center">
             <div class="brand-left">
                 <img class="brand-img" src="./img/header-1.png" alt="brand-image">
@@ -248,14 +287,14 @@
                 <!-- <img src="./img/footer_bg.png" alt="background"> -->
             </div>
             <div class="footer__top-background-fill">
-                
+
             </div>
         </div>
 
         <div class="footer__bottom">
             <div class="footer_bottom-content center">
                 <p class="footer__bottom-p">&copy; 2021 Brand All Rights Reserved.</p>
-                <div class="footer__bottom-sns">
+                <nav class="footer__bottom-sns">
                     <a href="#" class="footer__bottom-link">
                         <div class="footer__bottom-sn-logo">
                             <svg width="11" height="16" viewBox="0 0 11 16" fill="none"
@@ -312,7 +351,7 @@
                             </svg>
                         </div>
                     </a>
-                </div>
+                </nav>
             </div>
         </div>
     </footer>
